@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body
+{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   /* font-family: "Times New Roman";*/
+    font-size: 12.5px;
+    line-height: 1.5;
+    /*background: url("../img/fondsite1.jpg");
+    background-repeat: repeat-x ;
+    background-attachment: fixed;*/
+    bbackground-color: #fff;
+    color : black;
+    font-weight: 400;
+}
+
+#pageconnexion{
+	background-image : url("/img/1.jpeg");
+}
+li a{
+	color : black;
+	 
+}
+li a:hover{
+	color : #ea0606;
+}
+.infos_en_tete
+{
+
+      background: linear-gradient(55deg, #1dc2dc, #5149ce);
+
+   margin-bottom : 20px
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    text-align: right;
+
+}
+.infos_en_tete span{
+	color : white;
+}
+
+#filariane{
+	margin-top: 15px;
+}
+#lienajout{
+	margin-top: 5px;
+}
+#connexion a
+{
+    color : white;
+    
+}
+#connexion a:hover
+{
+    color: red;
+}
+
+
+#entete
+{
+	border-bottom: 1px solid black;
+	margin-bottom: 25px;
+		text-align : center;
+	margin-top : 40px;
+	
+}
+#corps{
+	width:90%;
+}
+.erreur
+{
+	color: red;
+}
+label
+{
+	margin-right: 10px;
+	width: 200px;
+}
+#search{
+	display: block;
+	width: 30%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	
+}
+.alertmessage{
+	color : white;
+	background-color: red;
+	padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    width : 80%;
+    margin-bottom : 25px;
+	
+}
+.alertsuccess{
+	color : white;
+	background-color: green;
+	padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+      margin-top : 25px;
+    margin-bottom : 25px;
+}
+#validate {
+    width: 100%;
+    /* les dégradés en question */
+	border-image: linear-gradient(to right, #1db0dc, #23d0d3);
+	background: linear-gradient(55deg, #1dc2dc, #5149ce);
+  	
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	/* On prévoit une transition pour l'effet au survol */
+	transition: all 0.3s ease 0s;
+	filter: hue-rotate(0deg) saturate(1);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#infoUser{
+	font-weight : 700;
+	margin-left: 15px;
+	margin-top : 15px;
+}
+
+
+#validate:hover {
+    background-color: #45a049;
+}
+
+#divForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+   margin-top : 50px;
+    width : 80%;
+}
