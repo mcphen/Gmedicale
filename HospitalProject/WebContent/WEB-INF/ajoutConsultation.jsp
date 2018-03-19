@@ -16,7 +16,7 @@
  </div>
    <div class="form-group">
     <label for="diagnos">Diagnostiques:</label>
-    <select name="diagnos" id="diagnos" class="form-control" multiple>
+    <select name="diagnos" id="diagnos" class="form-control" >
     	<c:forEach var="fonctions" items="${functions}"> 
                 <option value='${fonctions.libellePathologie }'> <c:out value="${fonctions.libellePathologie}"></c:out> </option>
         </c:forEach>

@@ -14,7 +14,7 @@
 	<tr>
 		<th>Nom et prénom</th>
 		<th>Poste</th>
-		<th>Actions</th>
+	
 	</tr>
 </thead>
 <tbody>
@@ -23,14 +23,7 @@
    			<tr>
    				<td><c:out value="${liste.nomUser }" /> <c:out value="${liste.prenomUser }" /></td>
    				<td><c:out value="${liste.libelleFonctions }" /></td>
-   				<td>
-   					
-   					<form method="post" >
-   					<a href="#" class="btn btn-primary">Editer</a>
-   						<input type="hidden" value="<c:out value="${liste.identifantUsers}" />">
-   						<button class="btn btn-danger">Supprimer</button>
-   					</form>
-   				</td>
+   			
    			</tr>
         </c:forEach>
 </tbody>
